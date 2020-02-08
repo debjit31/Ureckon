@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gamingEvents">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#72BBBE"
+        android:paddingLeft="@dimen/intrinsic_padding"
+        android:paddingRight="@dimen/intrinsic_padding"
+        android:paddingTop="@dimen/intrinsic_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/rainbow_six_seige"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#DDF3BF9C">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:background="#DDF3D487"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/rainbow1"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details"
+                        android:textAlignment="center"
+                        android:background="#DDF7E7DD"
+                        android:gravity="start"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#0E0C0C"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="  RAINBOW SIX SEIGE"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/pubg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#DDF3BF9C">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:background="#DDF8CC74"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/pubg"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details2"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:background="#DDF7E7DC"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#090808"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="PUBG MOBILE"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fifa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#DDF3BF9C">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:background="#DDF5CF61"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/fifa"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details3"
+                        android:textAlignment="center"
+                        android:background="#DDF8E5D7"
+                        android:gravity="start"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#0C0B0B"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="FIFA"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/csgo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#DDF3BF9C">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:background="#DDF7E2A4"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/csgo"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details4"
+                        android:textAlignment="center"
+                        android:background="#DDF8EBE3"
+                        android:gravity="start"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#090808"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="CS : GO"
+                        />
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flagShipEvents">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#72BBBE"
+        android:paddingLeft="@dimen/intrinsic_padding"
+        android:paddingRight="@dimen/intrinsic_padding"
+        android:paddingTop="@dimen/intrinsic_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/uic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/uic1"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#0C0B0B"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="  URECKON INNOVATION CHALLENGE"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/ureckathon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ureckathon"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details2"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#0E0D0D"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="  URECK-A-THON (HACKATHON)"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/tech_expo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/tech_expo"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details3"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#0C0B0B"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="TECH EXPO  (EXHIBITION)"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".roboticEvents">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#72BBBE"
+        android:paddingLeft="@dimen/intrinsic_padding"
+        android:paddingRight="@dimen/intrinsic_padding"
+        android:paddingTop="@dimen/intrinsic_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/robo_dangal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#DDA8">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:src="@drawable/robodangal"
+                        android:background="#F7F0BA"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:background="#DDF5E6DC"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#090808"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="  ROBO DANGAL"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/robo_league"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#DDF3BF9C">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        android:background="#F7F0BA"
+                        android:src="@drawable/roboleague"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details2"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:background="#DDF5F5F2"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#0C0C0C"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="  ROBO LEAGUE"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/need_for_torque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="#DDF3BF9C">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:background="#F7F0BA"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+
+                        android:src="@drawable/need_for_torque"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details3"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:layout_marginTop="5dp"
+                        android:background="#DDFCE9DD"
+                        android:textColor="#414040"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="NEED FOR TORQUE"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/dirrecion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="#DDF3BF9C">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        android:background="#F7F0BA"
+                        android:src="@drawable/dirrecion"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details4"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:background="#DDF8EDE6"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#414040"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="DIRRECION"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/hold_the_grip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#DDF3BF9C">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details5"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:src="@drawable/hold_the_grip"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        android:background="#F7F0BA"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details5"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:background="#DDF1E7E0"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#414040"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="HOLD THE GRIP"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/aerostorm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#DDF3BF9C">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details6"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:src="@drawable/aerostorm"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        android:background="#F7F0BA"
+                        />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details6"
+                        android:textAlignment="center"
+                        android:gravity="start"
+                        android:background="#DDF5F0ED"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#414040"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="AEROSTORM"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/bridgeonics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#DDF3BF9C">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details7"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        android:background="#F7F0BA"
+                        android:src="@drawable/bridgeonics"
+                       />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details7"
+                        android:textAlignment="center"
+                        android:background="#DDFAF5F2"
+                        android:gravity="start"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#0E0D0D"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="BRIDGE-O-NICS"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

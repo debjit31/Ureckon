@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_register"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_glimpse"
+            android:icon="@drawable/ic_glimpse"
+            android:title="Glimpse" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_team"
+
+            android:title="Team" />
+
+        <item
+            android:id="@+id/nav_developer"
+            android:icon="@drawable/ic_developer"
+            android:title="Developers" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_platform"
+            android:icon="@drawable/ic_platform"
+            android:title="Platform Support" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+
+            android:title="Logout" />
+
+
+        <item
+
+            android:title=" " />
+    </group>
+
+
+
+</menu>

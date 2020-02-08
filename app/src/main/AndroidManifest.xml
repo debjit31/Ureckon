@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rup.ureckon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_ureckon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TeamActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Platform" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".techexpo_register" />
+        <activity android:name=".ureckathon_register" />
+        <activity
+            android:name=".TeamRegistrations"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:theme="@style/AppCompat.NoActionBar" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".postx_register" />
+        <activity android:name=".techscript_register" />
+        <activity android:name=".thinktech_register" />
+        <activity android:name=".biote_register" />
+        <activity android:name=".ideapreach_register" />
+        <activity android:name=".getsetsell_register" />
+        <activity android:name=".cluex_register" />
+        <activity android:name=".csgo_register" />
+        <activity android:name=".fifa_register" />
+        <activity android:name=".pubg_register" />
+        <activity android:name=".pentest_register" />
+        <activity android:name=".debugger_register" />
+        <activity android:name=".spyder_register" />
+        <activity android:name=".codegolf_register" />
+        <activity android:name=".bridgeonics_register" />
+        <activity android:name=".aerostorm_register" />
+        <activity android:name=".holdthegrip_register" />
+        <activity android:name=".direcion_register" />
+        <activity android:name=".needfortorque_register" />
+        <activity android:name=".roboleague_register" />
+        <activity android:name=".team_register" />
+        <activity android:name=".uicc_register" />
+        <activity android:name=".healthy_bites_register" />
+        <activity android:name=".admaking_register" />
+        <activity android:name=".urecka_register" />
+        <activity android:name=".rainbow_six_seige_register" />
+        <activity android:name=".coderanch_register" />
+        <activity android:name=".robo_dangal_register" />
+        <activity android:name=".uic_register" />
+        <activity android:name=".intern_events" />
+        <activity android:name=".miscEvents" />
+        <activity android:name=".bEvents" />
+        <activity android:name=".uoscEvents" />
+        <activity android:name=".gamingEvents" />
+        <activity android:name=".codingEvents" />
+        <activity android:name=".roboticEvents" />
+        <activity android:name=".flagShipEvents" />
+        <activity
+            android:name=".GlimpseActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DevelopersActivity" />
+        <activity
+            android:name=".AllEvents"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

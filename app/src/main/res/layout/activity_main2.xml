@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/lg_out"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="133dp"
+        android:layout_marginBottom="387dp"
+        android:text="LOGOUT"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/uid_text"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:textColor="#420325"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="THIS IS YOUR UNIQUE ID.PLEASE REMEMBER THIS "/>
+
+    <TextView
+        android:id="@+id/unique_id"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:layout_below="@+id/uid_text"
+        android:layout_marginTop="25dp"
+        android:text="YOUR ID"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/chck"
+        android:layout_width="366dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_bg"
+        android:text="all events"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</RelativeLayout>

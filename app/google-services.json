@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "150792065290",
+    "firebase_url": "https://ureckon-fe028.firebaseio.com",
+    "project_id": "ureckon-fe028",
+    "storage_bucket": "ureckon-fe028.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150792065290:android:90655b2fda7f0985196af3",
+        "android_client_info": {
+          "package_name": "com.rup.ureckon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150792065290-4bbb8vtcre6dji1nor847nddg3h4tvvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rup.ureckon",
+            "certificate_hash": "854902221bc5ac74aaa5a8f918d5524cd3460b8f"
+          }
+        },
+        {
+          "client_id": "150792065290-pmofk7iblk83k1dnhlcrl79t19mbanvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqBzTZyYvEhegO_bhC3Ug-6--MNJEvryc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150792065290-pmofk7iblk83k1dnhlcrl79t19mbanvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

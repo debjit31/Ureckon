@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ABB2B9"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/dev1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_dev1"
+            android:layout_width="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="180dp"
+            android:src="@drawable/tatha_pro"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_toRightOf="@+id/profile_image_dev1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Tathagata     Banerjee"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/github"
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:background="@drawable/github_64px"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/name1"
+            android:layout_toRightOf="@+id/profile_image_dev1"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/linkedin"
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:background="@drawable/linkedin_96px"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/name1"
+            android:layout_toRightOf="@+id/github"
+            android:layout_marginLeft="30dp"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/dev2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_dev2"
+            android:layout_width="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="180dp"
+            android:src="@drawable/debjit_image"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_toRightOf="@+id/profile_image_dev2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Debjit Chattopadhyay"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/github2"
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:background="@drawable/github_64px"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/name2"
+            android:layout_toRightOf="@+id/profile_image_dev2"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/linkedin2"
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:background="@drawable/linkedin_96px"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/name2"
+            android:layout_toRightOf="@+id/github2"
+            android:layout_marginLeft="30dp"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

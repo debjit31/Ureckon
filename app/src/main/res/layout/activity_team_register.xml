@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".intern_events">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".team_register"
+    android:layout_margin="16dp"
+    android:padding="14dp">
+
+    <EditText
+        android:id="@+id/team_name"
+        android:layout_width="331dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button_transparent"
+        android:hint="Enter Team Name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/team_leader_name"
+        android:layout_width="327dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/team_name"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button_transparent"
+        android:hint="Enter Name of Team Leader...."
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/team_contact"
+        android:layout_width="322dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/team_leader_name"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button_transparent"
+        android:hint="Enter Contact No....."
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/team_email"
+        android:layout_width="321dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/team_contact"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button_transparent"
+        android:hint="Enter Email...."
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/team_college"
+        android:layout_width="325dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/team_email"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button_transparent"
+        android:hint="Enter Your Institution's Name...."
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/part1_uid"
+        android:layout_width="321dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/team_college"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button_transparent"
+        android:hint="Enter UID of Participant 1 :- "
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/part2_uid"
+        android:layout_width="321dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/part1_uid"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button_transparent"
+        android:hint="Enter UID of Participant 2 :- "
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/part3_uid"
+        android:layout_width="325dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/part2_uid"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_button_transparent"
+        android:hint="Enter UID of Participant 3 :- "
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/reg_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_below="@+id/part3_uid"
+        android:layout_centerHorizontal="true"
+        android:text="Register as a Team"
+        android:background="@drawable/button_bg"/>
+
+
+</RelativeLayout>
+
+</ScrollView>

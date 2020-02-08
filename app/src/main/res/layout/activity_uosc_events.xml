@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A38B7E"
+    tools:context=".uoscEvents">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:paddingLeft="@dimen/intrinsic_padding"
+        android:paddingRight="@dimen/intrinsic_padding"
+        android:paddingTop="@dimen/intrinsic_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/urecka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FCE3A3">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        android:background="#FCE3A3"
+                        android:src="@drawable/urecka"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details"
+                        android:textAlignment="center"
+                        android:background="#FFFAEE"
+                        android:gravity="start"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#090808"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="URECKA (UIC FOR SCHOOL)"
+
+
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbtnfirst"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cluex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FCE3A3">
+
+                    <ImageView
+                        android:id="@+id/eventImage_event_details2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/post_list_item_image_height"
+                        android:layout_marginBottom="@dimen/intrinsic_padding"
+                        android:layout_marginTop="10dp"
+                        android:scaleType="centerInside"
+                        android:background="#FCE3A3"
+                        android:src="@drawable/cluex"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/eventImage_event_details2"
+                        android:textAlignment="center"
+                        android:background="#FCFAF4"
+                        android:gravity="start"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#050505"
+                        android:textStyle="bold|italic"
+                        android:textSize="25dp"
+                        android:text="CLUE X (SCHOOL LEVEL APTI &amp; QUIZ )"
+
+
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

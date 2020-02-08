@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97630E88"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="360dp"
+        android:layout_height="583dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/roundbtnfirst"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextName2"
+            android:layout_width="341dp"
+            android:layout_height="74dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/roundbtnsecond"
+            android:hint="  Enter your name"
+            android:textColorHint="#111111"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextCollege2"
+            android:layout_width="341dp"
+            android:layout_height="74dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/roundbtnsecond"
+            android:hint="  Enter your institution's name"
+            android:textColorHint="#111111"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/editTextEmail2"
+            android:layout_width="341dp"
+            android:layout_height="74dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/roundbtnsecond"
+            android:hint="  Enter your email id"
+            android:textColorHint="#111111"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword2"
+            android:layout_width="341dp"
+            android:layout_height="74dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/roundbtnsecond"
+            android:hint="  Enter your password"
+            android:inputType="textPassword"
+
+            android:textColorHint="#111111"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="263dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/roundbutton"
+            android:text="sign up"
+            android:textAlignment="center"
+            android:textColor="#F6F8FA"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+        android:text="Already Have An Account?    Login Here"
+        android:textAlignment="center"
+        android:textColor="#0F1111"
+        android:textSize="27dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="187dp"
+        android:layout_below="@+id/login_text"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="143dp"
+        android:src="@drawable/ureckon_logo" />
+
+
+
+</RelativeLayout>
+</ScrollView>
